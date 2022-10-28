@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARTYYY BITCHEEES!!!!!! </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}" >
+    <style>
+    body {
+        color: white;
+        background: linear-gradient(250deg, #494e50, #301c9f, #88339b, #a1556f);
+        background-size: 800% 800%;
+
+        -webkit-animation: background-animation 26s ease infinite;
+        -moz-animation: background-animation 26s ease infinite;
+        -o-animation: background-animation 26s ease infinite;
+        animation: background-animation 26s ease infinite;
+    }
+    @-webkit-keyframes background-animation {
+        0%{background-position:53% 0%}
+        50%{background-position:48% 100%}
+        100%{background-position:53% 0%}
+    }
+    @-moz-keyframes background-animation {
+        0%{background-position:53% 0%}
+        50%{background-position:48% 100%}
+        100%{background-position:53% 0%}
+    }
+    @-o-keyframes background-animation {
+        0%{background-position:53% 0%}
+        50%{background-position:48% 100%}
+        100%{background-position:53% 0%}
+    }
+    @keyframes background-animation {
+        0%{background-position:53% 0%}
+        50%{background-position:48% 100%}
+        100%{background-position:53% 0%}
+    }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="app">
+
+        </div>
+    </div>
+    <script src="{% static 'frontend/main.js' %}"></script>
+</body>
+</html>
