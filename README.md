@@ -1,3 +1,3 @@
 # learning-projects
 
-A Collection of old projects that i built either by myself out of exercising, or by following online tutorials.
+A collection of helpful side projects that I usually build to experiment with new frameworks or libraries or by following online tutorials
